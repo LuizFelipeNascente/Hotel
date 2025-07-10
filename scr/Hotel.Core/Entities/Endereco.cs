@@ -1,6 +1,6 @@
 namespace Hotel.Core.Entities;
 
-public class Endereco
+public class Endereco : EntidadeBase
 {
     public Guid EnderecoId { get; set; }
     public string Logradouro { get; set; }

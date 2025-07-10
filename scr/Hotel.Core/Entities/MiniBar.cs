@@ -1,6 +1,6 @@
 namespace Hotel.Core.Entities;
 
-public class MiniBar
+public class MiniBar : EntidadeBase
 {
     public Guid MiniBarId { get; set; }
     public DateTime Iniciado { get; set; }

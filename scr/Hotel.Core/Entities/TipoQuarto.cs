@@ -1,6 +1,6 @@
 namespace Hotel.Core.Entities;
 
-public class TipoQuarto
+public class TipoQuarto : EntidadeBase
 {
     public Guid TipoQuartoId { get; set; }
     public string Nome { get; set; }

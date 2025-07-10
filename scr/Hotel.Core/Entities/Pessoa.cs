@@ -1,6 +1,6 @@
 namespace Hotel.Core.Entities;
 
-public class Pessoa
+public class Pessoa : EntidadeBase
 {
     public Guid PessoaId { get; set; }
     public string Nome { get; set; }

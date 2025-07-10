@@ -1,6 +1,6 @@
 namespace Hotel.Core.Entities;
 
-public class ServicoReservaItem
+public class ServicoReservaItem : EntidadeBase
 {
     public Guid ServicoReservaItemId { get; set; }
     public Guid ServicoReservaId { get; set; }

@@ -1,6 +1,6 @@
 namespace Hotel.Core.Entities;
 
-public class Produto
+public class Produto : EntidadeBase
 {
     public Guid ProductId { get; set; }
     public string Name { get; set; }

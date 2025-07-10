@@ -1,6 +1,6 @@
 namespace Hotel.Core.Entities;
 
-public class MiniBarItem
+public class MiniBarItem : EntidadeBase
 {
     public Guid MiniBarItemId { get; set; }
     public Guid MiniBarId { get; set; }
